@@ -846,7 +846,7 @@ body {
 .menu {
     position: fixed;
     top: 4.7vh;
-    left: 25vw;
+    right: 5vw;
     display: flex;
     gap: 1.6vw; /* 2 * 0.8 */
     font-family: "Inter", sans-serif;
@@ -1471,3 +1471,4 @@ body {
     cursor: pointer;
 
 }
+
