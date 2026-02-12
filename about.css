@@ -1,0 +1,121 @@
+/* ===== ABOUT LAYOUT ===== */
+
+.about-layer {
+    position: relative;
+    min-height: 100vh;
+}
+
+/* Tytuł strony */
+.about-title {
+    position: absolute;
+    top: 28vh;
+    left: 38vw;
+    font-family: "Lora", serif;
+    font-size: 28px;
+    font-weight: 500;
+}
+.subtitle {
+    position: absolute;
+    top: 23vh;
+    left: 42.4vw;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    font-size: 9.6px; /* 12 * 0.8 */
+    letter-spacing: 2.4px; /* 3 * 0.8 */
+    line-height: 1.1;
+    text-align: right;
+}
+
+/* Tekst */
+.about-text {
+    position: absolute;
+    top: 68vh;
+    left: 63vw;
+    width: 32vw;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.mobile-text{
+    display:none;
+}
+.aboutme {
+    position: absolute;
+    top: 45vh;
+    left: 34vw;
+}
+
+    .aboutme img {
+        width: 43%;
+        height: 43%;
+        object-fit: fill;
+    }
+
+.cv {
+    position: fixed;
+    left: 2.8vw;
+    top: 45vh;
+    font-family: "Inter", sans-serif;
+    font-size: 8.8px;
+    letter-spacing: 1.6px;
+    line-height: 1.2;
+    z-index: 3000; /* ⬅️ NAJWAŻNIEJSZE */
+    pointer-events: auto; /* ⬅️ KLIKALNOŚĆ */
+    text-decoration: none;
+    color: #111111;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+
+    /* ukrywamy desktopowy tekst */
+    .desktop-text {
+        display: none;
+    }
+    .mobile-text{
+        display: block;
+    }
+
+    /* subtitle – lewa strona, trochę niżej */
+    .subtitle {
+        top: 18vh;
+        left: 8vw;
+        text-align: left;
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+    /* tytuł ABOUT */
+    .about-title {
+        top: 22vh;
+        left: 8vw;
+        font-size: 24px;
+    }
+
+    /* GRAFIKA – WIĘKSZA */
+    .aboutme {
+        top: 40vh;
+        left: 26vw;
+    }
+
+        .aboutme img {
+            width: 70%; /* kluczowa zmiana */
+            height: auto;
+        }
+
+    /* tekst – niżej, szeroki */
+    .about-text {
+        top: 78vh;
+        left: 45vw;
+        width: 84vw;
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    /* CV – zostaje jak jest, ewentualnie lekko mniejsze */
+    .cv {
+        font-size: 8px;
+    }
+}

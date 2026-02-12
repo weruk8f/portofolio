@@ -1,0 +1,105 @@
+.subtitle {
+    position: absolute;
+    top: 23vh;
+    left: 40.9vw;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    font-size: 9.6px; /* 12 * 0.8 */
+    letter-spacing: 2.4px; /* 3 * 0.8 */
+    line-height: 1.1;
+    text-align: right;
+}
+.image1 {
+    position: relative;
+    top: 64vh;
+    left: 18vw;
+    width: 9vw;
+}
+
+    .image1 img {
+        width: 50%;
+        height: 50%;
+        object-fit: fill;
+    }
+
+/* ===== CONTACT LAYER ===== */
+.contact-layer {
+    position: relative;
+    min-height: 100vh;
+}
+
+/* ===== LINKS ===== */
+.contact-links {
+    position: absolute;
+    top: 70vh;
+    left: 44vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh; /* mniejsze odstępy między wierszami */
+    font-family: "Inter", serif;
+    font-size: 14px; /* tekst tej samej wielkości dla wszystkich kontaktów */
+}
+
+/* wspólny link z ikoną */
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8vw; /* odstęp między ikoną a tekstem */
+    text-decoration: none;
+    color: #111111;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+    .contact-item:hover .contact-text {
+        text-decoration: underline;
+    }
+
+/* ikona */
+.contact-icon {
+    width: 16px; /* standardowa wielkość ikon */
+    height: 16px;
+    object-fit: contain;
+}
+
+/* tylko ikona emaila większa */
+.contact-icon-email {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 768px) {
+
+    /* OBRAZEK – OUT */
+    .image1 {
+        display: none;
+    }
+
+    /* SUBTITLE – lewa strona, spokojnie */
+    .subtitle {
+        top: 30vh;
+        left: 8vw;
+        text-align: left;
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+    /* CONTACT LINKS – DUŻO NIŻEJ */
+    .contact-links {
+        top: 72vh; /* tu jest kluczowa zmiana */
+        left: 30vw;
+        font-size: 15px;
+        gap: 2.2vh;
+    }
+
+    .contact-item {
+        gap: 10px;
+    }
+
+    .contact-icon {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+
