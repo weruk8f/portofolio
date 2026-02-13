@@ -1418,7 +1418,7 @@ body {
 
     .metal-2 {
         top: 1070vh;
-        left: 20vw;
+        left: 23vw;
         width: 220px;
         height: 267px;
     }
@@ -1430,14 +1430,14 @@ body {
 
     .metal-3 {
         top: 1140vh;
-        left: 20vw;
+        left: 23vw;
         width: 169px;
         height: 110px;
     }
 
     .metal-4 {
         top: 1102vh;
-        left: 20vw;
+        left: 23vw;
         width: 169px;
         height: 110px;
     }
@@ -1449,7 +1449,7 @@ body {
 
     .metal-5 {
         top: 1160vh;
-        left: 20vw;
+        left: 23vw;
         width: 169px;
         height: 110px;
     }
@@ -1471,6 +1471,7 @@ body {
     cursor: pointer;
 
 }
+
 
 
 
