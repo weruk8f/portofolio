@@ -75,7 +75,7 @@ body {
 .menu {
     position: fixed;
     top: 4.7vh;
-    right: 5vw;
+    right: 30px;
     display: flex;
     gap: 1.6vw; /* 2 * 0.8 */
     font-family: "Inter", sans-serif;
@@ -1471,4 +1471,5 @@ body {
     cursor: pointer;
 
 }
+
 
