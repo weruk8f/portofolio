@@ -87,7 +87,7 @@
     /* CONTACT LINKS – DUŻO NIŻEJ */
     .contact-links {
         top: 72vh; /* tu jest kluczowa zmiana */
-        left: 30vw;
+        left: 27vw;
         font-size: 15px;
         gap: 2.2vh;
     }
@@ -101,5 +101,6 @@
         height: 18px;
     }
 }
+
 
 
