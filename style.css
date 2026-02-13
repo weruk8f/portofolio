@@ -841,7 +841,7 @@ body {
     .scroll-layer {
         position: relative;
         min-height: 1190vh;
-        transform: scale(3.5);
+        transform: scale(1);
         transform-origin: top center;
     }
     
@@ -1473,6 +1473,7 @@ body {
     cursor: pointer;
 
 }
+
 
 
 
