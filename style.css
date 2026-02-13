@@ -841,8 +841,6 @@ body {
     .scroll-layer {
         position: relative;
         min-height: 1190vh;
-        transform: scale(1);
-        transform-origin: top center;
     }
     
 .menu {
@@ -1473,6 +1471,7 @@ body {
     cursor: pointer;
 
 }
+
 
 
 
