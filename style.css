@@ -9,6 +9,7 @@
 body {
     background-color: #fafbfd;
     color: #111111;
+    overflow-x: hidden;
 
 }
 /* ===== FIXED ELEMENTS ===== */
@@ -1470,6 +1471,7 @@ body {
     cursor: pointer;
 
 }
+
 
 
 
