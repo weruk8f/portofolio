@@ -19,7 +19,7 @@ body {
     position: relative;
     display: block;
     /* Margines od prawej, o który prosiłeś */
-    padding-right: 4vw; 
+    padding-right: 2vw; 
     box-sizing: border-box;
 }
 /* ===== FIXED ELEMENTS ===== */
@@ -1483,6 +1483,7 @@ body {
     cursor: pointer;
 
 }
+
 
 
 
