@@ -11,13 +11,6 @@ body {
     color: #111111;
 
 }
-.page-wrapper {
-    width: 100%;
-    overflow-x: hidden; /* To zadziała na iOS wewnątrz wrappera */
-    position: relative;
-    display: block;
-}
-
 /* ===== FIXED ELEMENTS ===== */
 .name {
     position: fixed;
@@ -1477,6 +1470,7 @@ body {
     cursor: pointer;
 
 }
+
 
 
 
