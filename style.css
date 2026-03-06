@@ -10,7 +10,6 @@ body {
     background-color: #fafbfd;
     color: #111111;
     width: 100%
-    overflow-x: hidden;
 }
 .page-wrapper {
     width: 100%;
@@ -1478,6 +1477,7 @@ body {
     cursor: pointer;
 
 }
+
 
 
 
