@@ -10,7 +10,17 @@ body {
     background-color: #fafbfd;
     color: #111111;
     overflow-x: hidden;
-
+    width: 100%;
+    position: relative;
+}
+.main-wrapper {
+    width: 100%;
+    overflow-x: hidden; /* To jest nożyczka, która odetnie wszystko co wystaje w prawo */
+    position: relative;
+    display: block;
+    /* Margines od prawej, o który prosiłeś */
+    padding-right: 4vw; 
+    box-sizing: border-box;
 }
 /* ===== FIXED ELEMENTS ===== */
 .name {
@@ -121,6 +131,8 @@ body {
 .scroll-layer {
     position: relative;
     min-height: 1200vh;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /* ===== SCROLLING TEXT ===== */
@@ -1471,6 +1483,7 @@ body {
     cursor: pointer;
 
 }
+
 
 
 
