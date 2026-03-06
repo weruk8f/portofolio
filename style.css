@@ -9,6 +9,7 @@
 body {
     background-color: #fafbfd;
     color: #111111;
+    width: 100%
     overflow-x: hidden;
 }
 
@@ -1471,6 +1472,7 @@ body {
     cursor: pointer;
 
 }
+
 
 
 
