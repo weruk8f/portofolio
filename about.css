@@ -1,5 +1,13 @@
 /* ===== ABOUT LAYOUT ===== */
-
+.main-wrapper {
+    width: 100%;
+    overflow-x: hidden; /* To jest nożyczka, która odetnie wszystko co wystaje w prawo */
+    position: relative;
+    display: block;
+    /* Margines od prawej, o który prosiłeś */
+    padding-right: 2vw; 
+    box-sizing: border-box;
+}
 .about-layer {
     position: relative;
     min-height: 100vh;
@@ -119,3 +127,4 @@
         font-size: 8px;
     }
 }
+
