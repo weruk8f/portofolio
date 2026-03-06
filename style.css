@@ -12,6 +12,12 @@ body {
     width: 100%
     overflow-x: hidden;
 }
+.page-wrapper {
+    width: 100%;
+    overflow-x: hidden; /* To zadziała na iOS wewnątrz wrappera */
+    position: relative;
+    display: block;
+}
 
 /* ===== FIXED ELEMENTS ===== */
 .name {
@@ -1472,6 +1478,7 @@ body {
     cursor: pointer;
 
 }
+
 
 
 
